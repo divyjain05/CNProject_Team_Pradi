@@ -1,0 +1,7 @@
+
+# No external Python dependencies.
+# Python standard library is used for the backend servers.
+
+# Required Python version:
+# Python 3.x
+
