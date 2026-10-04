@@ -273,8 +273,6 @@ Add the following to `.gitignore`:
 server.key
 *.key
 .DS_Store
-__pycache__/
-*.pyc
 ```
 
 This project is intended for a controlled private LAN environment and is not configured as a production internet-facing service.
