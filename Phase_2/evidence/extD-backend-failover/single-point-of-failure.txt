@@ -1,0 +1,10 @@
+Single Point of Failure:
+
+Nginx running on Mac 2 is the single point of failure.
+If Mac 2 or its Nginx service goes down, clients cannot
+access either backend through the application endpoint.
+
+To eliminate this issue, we would need a second Nginx
+edge server on another machine, along with a floating IP
+or load balancer to redirect traffic if the primary edge
+server becomes unavailable.
